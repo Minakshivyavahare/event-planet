@@ -1,0 +1,957 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: #211327;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-block: 30px;
+}
+.logo{
+    width: 60%;
+    height: auto;
+    padding-inline: 80px;
+}
+.logo img{
+    width: 150px;
+}
+.nav-links{
+    width: 40%;
+    height: auto;
+
+}
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links ul li{
+    font-weight: 600;
+}
+/* --------------------------navbar end--------------------- */
+.navbar2{
+    width: 100%;
+    height: auto;
+    background-color: #211327;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-block: 30px;
+}
+.nav-left{
+    width: 40%;
+    height: auto;
+    padding-inline: 30px;
+    
+}
+.nav-left i{
+    font-size: 35px;
+}
+.nav-right{
+    width: 60%;
+    height: auto;
+}
+/* -------------------------navbar2---------------------------- */
+
+.home-section{
+    width: 100%;
+    height: auto;
+}
+.home-section img{
+    width: 100%;
+    height: 100%;   
+    background-position: center;
+    background-size: cover;
+   
+}
+
+/* ------------------home section end------------------------ */
+
+.home-section2{
+    width: 100%;
+    height: auto;
+}
+.home-section2 img{
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+
+}
+/* -----------------home section 2----------------------------- */
+
+.event-section{
+    width: 100%;
+    height: auto;
+    padding-block: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.event-section h1{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-weight: 100;
+    word-spacing: 3px;
+    font-size: 40px;
+    color: #232323;
+  
+}
+.event-section p{
+    padding-block: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #616161;
+    font-size: 16px;
+}
+.event-section img{
+    color: #EBEBEB;
+}
+/* -------------------------event section end------------------------ */
+.card-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 50px;
+    
+}
+.card-section button:hover{
+    background-color: #FD226A;
+}
+
+.card-section{
+    padding-block: 15px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.card1{
+    height: 298px;
+     width: 30%;
+    background-image: url("./images/card1");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card1 button{
+    transform: translateY(150px);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    padding-inline: 70px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-block: 20px;
+    border-radius: 7px;
+}
+.card2 button{
+    transform: translateY(150px);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    padding-inline: 70px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-block: 20px;
+    border-radius: 7px;
+}
+.card3 button{
+    transform: translateY(150px);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    padding-inline: 70px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-block: 20px;
+    border-radius: 7px;
+}
+
+.card2{
+    height: 298px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/card2");
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    height: 298px;
+    width: 30%;
+    background-image: url("./images/card3");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-main2{
+    width: 100%;
+    height: auto;
+    padding-block: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section2{
+    padding-block: 15px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+.card-section2 button:hover{
+    background-color: #FD226A;
+}
+.card4{
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-image: url("./images/card4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.card5{
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-image: url("./images/card5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.card6{
+    height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-image: url("./images/card6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.card4 button{
+    transform: translateY(150px);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    padding-inline: 70px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-block: 20px;
+    border-radius: 7px;
+}
+.card5 button{
+    transform: translateY(150px);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    padding-inline: 70px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-block: 20px;
+    border-radius: 7px;
+}
+.card6 button{
+    transform: translateY(150px);
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    padding-inline: 70px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-block: 20px;
+    border-radius: 7px;
+}
+
+
+/* --------------------------card section end-------------------------- */
+
+.service-section{
+    width: 100%;
+    height: auto;
+    background-color: #160A20;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-block: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-heading{
+    width: 100%;
+    padding-block: 60px;
+    height: auto;
+    background-color:#160A20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.service-heading h5{
+    font-size: 15px;
+    color: #FD226A;
+    font-weight: 800;
+}
+.service-heading h1{
+    font-size:38px;
+    padding-block: 10px;
+    font-weight: 400;
+}
+.service-card{
+    width: 80%;
+    height: auto;
+    display: flex;
+   
+}
+.card11 img{
+    width: 30%;
+}
+.card22 img{
+    width: 30%;
+}
+.card33 img{
+    width: 20%;
+}
+.card11{
+    width: 35%;
+    height: 250px;
+    border-style: none solid solid none;
+    border-width: 1px;
+    border-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+.card11 h4{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 22px;
+}
+.card22 h4{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 22px;
+}
+.card33 h4{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 22px;
+}
+.card11 p{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+.card22 p{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+.card33 p{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+.card22{
+    width: 35%;
+    height: 250px;
+   border: 1px solid white;
+   border-top: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+.card33{
+    width: 38%;
+    height: 250px;
+    border-top: none;
+    border-width: 1px;
+    border-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+
+}
+.service-card2{
+    width: 80%;
+    height: auto;
+    display: flex;
+   
+}
+.card44 h4{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 22px;
+}
+.card55 h4{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 22px;
+}
+.card66 h4{
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 22px;
+}
+.card44 p{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+.card55 p{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+.card66 p{
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+.card44 img{
+    width: 30%;
+}
+.card55 img{
+    width: 30%;
+}
+.card66 img{
+    width: 20%;
+}
+.card44{
+    width: 35%;
+    height: 250px;
+   border: 1px solid white;
+   border-bottom: none;
+   border-left: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+.card55{
+    width: 35%;
+    height: 250px;
+   border: 1px solid white;
+   border-bottom: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+}
+.card66{
+    width: 38%;
+    height: 250px;
+    border-style: solid none none solid; 
+    border-width: 1px;
+    border-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-direction: column;
+
+}
+/* ----------------------service card section--------------------- */
+.birthday-section{
+    width: 100%;
+    height: auto;
+   
+}
+.birthday-heading{
+    width: 100%;
+    padding-block: 20px;
+    
+}
+.sub-heading{
+    border: 1px solid black;
+    color: #232323;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+    margin-block: 10px;
+    padding-inline: 20px;
+    font-size: 16px;
+}
+.plus{
+    font-size: 30px;
+    color: #232323;
+}
+
+/* ----------------------birthday section end--------------------- */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #14081F;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 40px;
+}
+.footer1{
+    width: 20%;
+    height: auto;
+    padding-left: 10px;
+
+
+}
+.footer1 h3{
+   
+    font-size: 26px;
+    font-weight: 500;
+}
+.footer1 p{
+    line-height: 25px;
+    padding-block: 10px;
+    font-size: 14px;
+}
+.addres img{
+    width: 15px;
+}
+.footer2{
+    width: 20%;
+    height: auto;
+
+}
+.footer2 ul{
+    list-style: none;
+}
+.footer2 h3{
+    
+    font-size: 26px;
+    font-weight: 500;
+}
+.footer2 ul li{
+    padding-top: 8px;
+    font-size: 14px;
+}
+.contact img{
+    width: 15px;
+}
+.footer3{
+    width: 20%;
+    height: auto;
+}
+.footer3 h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+.footer3 ul{
+    list-style: none;
+}
+.footer3 ul li{
+    padding-top: 8px;
+    font-size: 14px;
+}
+.search  img{
+    width: 15px;
+}
+
+
+.footer4{
+    width: 20%;
+    height: auto;
+}
+.footer4 h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+.footer4 ul{
+    list-style: none;
+}
+.footer4 ul li{
+    padding-top: 8px;
+    font-size: 14px;
+}
+.search  img{
+    width: 15px;
+}
+/* -----------------------------footer 2------------------- */
+.footer-section{
+    width: 100%;
+    height: auto;
+    background-color: #14081F;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-main1{
+    width: 90%;
+    height: auto;
+    padding-block: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer11{
+    width: 45%;
+    height: auto;
+}
+.footer11 h3{
+   
+    font-size: 26px;
+    font-weight: 500;
+}
+.footer11 p{
+    line-height: 25px;
+    padding-block: 10px;
+    font-size: 14px;
+}
+.addres img{
+    width: 15px;
+}
+.footer22{
+    width: 45%;
+    height: auto;
+}
+.footer22 ul{
+    list-style: none;
+}
+.footer22 h3{
+    font-size: 26px;
+    font-weight: 500;
+}
+.footer22 ul li{
+    padding-top: 8px;
+    font-size: 14px;
+}
+.contact img{
+    width: 15px;
+}
+.footer-main2{
+    width: 90%;
+    padding-block: 40px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer33{
+    width: 45%;
+    height: auto;
+}
+.footer33 h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+.footer33 ul{
+    list-style: none;
+}
+.footer33 ul li{
+    padding-top: 8px;
+    font-size: 14px;
+}
+.search  img{
+    width: 15px;
+}
+.footer44{
+    width: 45%;
+    height: auto;
+}
+.footer44 h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+.footer44 ul{
+    list-style: none;
+}
+.footer44 ul li{
+
+    padding-top: 8px;
+    font-size: 14px;
+}
+.search  img{
+    width: 15px;
+}
+/* -----------hidden block--------------- */
+.navbar2{
+    display: none;
+}
+.home-section2{
+    display: none;
+}
+.footer-section{
+    display: none;
+}
+/* ------------------------footer section-------------------------- */
+
+/* -----------------------responsive code------------------------ */
+
+@media (max-width:1200px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+       display: none;
+    }
+    .navbar2{
+        width: 100%;
+        height: auto;
+        background-color: #211327;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-block: 30px;
+    }
+    .nav-left{
+        width: 40%;
+        height: auto;
+        padding-inline: 30px;
+        
+    }
+    .nav-right{
+        width: 60%;
+        height: auto;
+    }
+
+}
+@media (max-width:992px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .card-main{
+        width: 100%;
+        height: auto;
+        padding-block: 50px;
+    }
+    .card-section{
+        width: 90%;
+        padding-block: 15px;
+        height: auto;
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .card1{
+        width: 45%;
+        height: 250px;
+       
+    }
+    .card2{
+        width: 45%;
+        height: 250px;
+        
+    }
+    .card3{
+        display: none;
+    }
+    .card-main2{
+        width: 100%;
+        height: auto;
+        padding-block: 50px;
+    }
+    .card-section2{
+        width: 90%;
+        gap: 40px;
+        padding-block: 15px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .card4{
+        width: 45%;
+        height: 250px;
+       
+    }
+    .card5{
+        width: 45%;
+        height: 250px;
+        
+    }
+    .card6{
+        display: none;
+    }
+    /* ------------------card section end----------------- */
+    .service-section{
+        width: 100%;
+        height: auto;
+       
+    }
+    .service-heading{
+        width: 100%;
+        padding-block: 60px;
+        height: auto;
+       
+    }
+    .service-card{
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+    .card11{
+        width: 80%;
+        border: none;
+    }
+    .card22{
+        width: 80%;
+        border: none;
+    }
+    .card33{
+        width: 80%;
+        border: none;
+    }
+    .service-card2{
+        width: 80%;
+      
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+    .card44{
+        width: 80%;
+        border: none;
+    }
+    .card55{
+        width: 80%;
+        border: none;
+    }
+    .card66{
+        width: 80%;
+        border: none;
+    }
+    /* --------------------------service card---------------- */
+    .footer{
+       display: none;
+    }
+    .footer-section{
+        width: 100%;
+        height: auto;
+        background-color: #14081F;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .footer-main1{
+        width: 90%;
+        height: auto;
+        padding-block: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer11{
+        width: 45%;
+        height: auto;
+    }
+    .footer22{
+        width: 45%;
+        height: auto;
+    }
+    .footer-main2{
+        width: 90%;
+        padding-block: 40px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer33{
+        width: 45%;
+        height: auto;
+    }
+
+    .footer44{
+        width: 45%;
+        height: auto;
+    }
+    
+
+
+}
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .home-section{
+        display: none;
+    }
+    .home-section2{
+        display: inline;
+    }
+    .card-main{
+        width: 100%;
+        height: auto;
+        padding-block: 50px;
+    }
+    .card-section{
+        width: 90%;
+        height: auto;
+       
+    }
+    .card1{
+        width: 90%;
+        height: 250px;
+       
+    }
+    .card2{
+       display: none;
+        
+    }
+    .card3{
+        display: none;
+    }
+    .card-main2{
+        width: 100%;
+        height: auto;
+        padding-block: 50px;
+    }
+    .card-section2{
+        width: 90%;
+       
+        height: auto;
+       
+    }
+    .card4{
+        width: 90%;
+        height: 250px;
+       
+    }
+    .card5{
+       display: none;
+        
+    }
+    .card6{
+        display: none;
+    }
+}
